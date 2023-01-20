@@ -1,53 +1,19 @@
-# OneHealth_M4
+Pt-BR
+<br/>
+Toda a saúde que você precisa em uma aplicação! Essa API Rest foi feita em parceria com mais 6 pessoas, e tem como objetivo o gerenciamento de uma clínica de saúde, onde é possível cadastrar usuários, médicos e fazer o agendamento de horários de atendimento. Utilizamos Node.js, Express, Typeorm e o Render para fazer o deploy.
+<br/>
+Link da aplicação: https: //one-health.onrender.com
+<br/>
+Link da documentação:https: //one-health-documentation-seven.vercel.app
+<br/>
+En
+<br/>
+All the health you need in one application! This API Rest was made in partnership with 6 people, and the objective is manage one health clinic, where is possible register users, doctors and make the schedule appointments. We used Node.js, Express, Typeorm and Render to make the deploy.
+<br/>
+API link: https: //one-health.onrender.com
+<br/>
+Docummentation link: //one-health-documentation-seven.vercel.app
+<br/>
 
-Padronizações
 
-Projeto iniciado com Yarn.
-
-Linguagem utilizada: Inglês
-
-Nome dos Bancos de Dados:
-onehealth_database 
-
-Nomeação das variaveis:
-CamelCase
-
-Nome das Tabelas:
-
-Address(Endereço)
-User(Paciente)
-User_Medic(Medico)
-Scheduled_Appointment(Consultas Marcadas)
-Diagnostic(Diagnósticos)
-
-Padronização Controllers
-address.controller.ts
-users.controller.ts
-appointment.controller.ts
-diagnostic.controller.ts
-
-Padronizações para arquivos de services:
-"nome da funcionalidade".services.ts
-ex: createUserMedic.service.ts
- -Dentro do arquivo a função devera ter um nome similar
-  ex: createUserMedicService
-
-Padronizações para arquivos de middleware:
-"nome do middleware".middleware.ts
-
-ex: verifyExistUser.middleware.ts
- -Dentro do arquivo a função devera ter um nome similar
-  ex: verifyExistUserMiddleware.ts
- 
-Padronização Interfaces
-Todas as interfaces começam com I para indicar que são interfaces typescript
-ex: IUserMedic 
-
-Padronização Schemas/Yup
-O nome dos schemas vão ser baseados na interface que está sendo usada para monta-lo ou no que ele está fazendo.
-
-registerUserMedic => Fala que é o schema usado para tratar as informações que vem no corpo da requisição antes de serem inseridas na API
-registerUserMedicResponse => fala que é o schema usado para tratar a resposta que o usuário vai receber ao cadastrar um médico.
-
-Lembretes Gerais
-Tentar Manter apenas uma função por arquivo / service, as únicas excessões seram os controllers/interfaces/schemas que vão ter vários exports dentro do arquivo.
+<img src="https://res.cloudinary.com/dvkwgt94s/image/upload/v1674242713/OneHealth_relacionamentos_i6k84e.png" />
